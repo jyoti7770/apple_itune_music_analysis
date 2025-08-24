@@ -118,9 +118,8 @@ media_type_id	int,
 genre_id	int,
 milliseconds	int,
 bytes	int,
-unit_price int);
-
-select * from track;
+unit_price int)
+```
 
 
 ## Key Business Questions & Queries
