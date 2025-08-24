@@ -172,4 +172,8 @@ unit_price int)
 - Compared track durations against the average to filter long compositions.
 
 - Calculated average music prices by type.
+
+## Resolve queries link
+**How to run this project:**[Data Analyis]()
+
   
