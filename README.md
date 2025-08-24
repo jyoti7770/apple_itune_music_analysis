@@ -27,13 +27,9 @@ album_id int primary key,
 title varchar(100),
 artist_id int);
 
-select * from album;
-
 create table artist (
 artist_id int,
 name varchar(100) );
-
-select * from artist;
 
 create table customer (
 customer_id	int,
@@ -44,8 +40,6 @@ city	varchar (25),
 country	varchar (25),
 email	varchar (50),
 support_rep_id int );
-
-select * from customer;
 
 create table employee (
 employee_id	int,
@@ -63,13 +57,9 @@ country	varchar (10),
 postal_code	varchar(10),
 email varchar(25) );
 
-select * from employee;
-
 create table genre (
 genre_id int,	
 name varchar (25) );
-
-select * from genre;
 
 create table invoice (
 invoice_id	int primary key,
@@ -90,25 +80,17 @@ track_id	int,
 unit_price	int,
 quantity int);
 
-select * from invoice_line;
-
 create table media_type (
 media_type_id	int primary key,
 name varchar(25));
-
-select * from media_type;
 
 create table playlist (
 playlist_id	int primary key,
 name varchar(25));
 
-select * from playlist;
-
 create table playlist_track (
 playlist_id	int,
 track_id int );
-
-select *from playlist_track;
 
 create table track (
 track_id	int,
