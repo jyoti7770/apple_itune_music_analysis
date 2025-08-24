@@ -174,6 +174,6 @@ unit_price int)
 - Calculated average music prices by type.
 
 ## Resolve queries link
-**How to run this project:**[Data Analyis]()
+**How to run this project:**[Data Analyis](https://github.com/jyoti7770/apple_itune_music_analysis/blob/main/itune_db_project_sql.sql)
 
   
