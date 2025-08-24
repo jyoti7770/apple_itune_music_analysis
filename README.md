@@ -17,6 +17,10 @@ This project analyzes a Apple Itune digital music store database using SQL.The m
 
 ## Tools & Technologies
 - SQL (MYSQL)
+
+## Schema
+``` SQL
+
 ## Key Business Questions & Queries
 ### Customer & Employee Analysis
 - Q1. Who is the senior-most employee based on job title?
